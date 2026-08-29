@@ -1,58 +1,67 @@
 # Privacy Policy
 
-**+++ THIS IS JUST A SAMPLE +++**
+**Effective Date:** August 29, 2026  
+**Last Updated:** August 29, 2026
 
-Privacy Policy of Company Name
+## 1. Introduction and Scope
+Welcome to BSides Singapore Security Conference ("the Conference"). We are committed to protecting your personal data in accordance with the **Personal Data Protection Act 2012 (including its 2020/2021 amendments)** of Singapore and other applicable data protection laws. 
 
-Company Name operates the Website Name website, which provides the SERVICE.
+This Privacy Policy outlines how we collect, use, disclose, and process your personal data across all touchpoints, including:
+* Our official website (hosted via GitHub Pages and protected by Cloudflare)
+* Ticketing and registration platforms (such as RSVPify)
+* Speaker submission platforms (such as `cfp.directory`)
+* On-site event check-in, badge printing services, and physical venue access control
+* On-site photography, media capture, and post-event analytics
 
-This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service, the Website Name website.
+By registering for, attending, or interacting with the Conference and its digital infrastructure, you consent to the data practices described in this Privacy Policy.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect are used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Website URL, unless otherwise defined in this Privacy Policy.
+## 2. Personal Data We Collect
+We limit the collection of personal data to what is strictly necessary for organizing, securing, and managing the event. Depending on your interaction with us, we may collect the following categories of information:
 
-## Information Collection and Use
+* **Identity & Demographic Data:** Full name, gender, and age range (collected during ticketing and registration).
+* **Contact Details:** Business, personal, or educational email addresses.
+* **Professional Information:** Occupation, job title, and professional or educational affiliations (also collected via `cfp.directory` for accepted speakers).
+* **Operational Preferences:** Dietary requirements (collected solely for the purpose of managing catering safety and logistics).
+* **On-Site & Technical Data:** 
+  * Physical check-in timestamps and badge access logs used for venue security and capacity management.
+  * Technical telemetry, IP addresses, and routing data processed via Cloudflare and GitHub Pages for Layer 7 security and DDoS mitigation.
+  * Event photographs and video recordings (which may include clear headshots or ambient/blurred crowd captures).
 
-For a better experience while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to your name, phone number, and postal address. The information that we collect will be used to contact or identify you.
 
-## Log Data
+## 3. Purposes for Collection, Use, and Disclosure
+In compliance with the PDPA, we collect, use, and disclose your personal data strictly for the following operational purposes:
 
-We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called Log Data. This Log Data may include information such as your computer's Internet Protocol (“IP”) address, browser version, pages of our Service that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
+* **Ticketing & Access Control:** Processing ticket registrations via RSVPify, issuing digital confirmations, printing physical badges via our on-site vendor, and verifying identity for venue entry and security.
+* **Event Logistics & Safety:** Managing dietary requirements with catering providers and scheduling speaker sessions.
+* **Communications:** Sending essential administrative notices, schedule updates, logistical instructions, and post-event feedback requests.
+* **Media & Publicity:** Capturing event photography and videography for post-event highlights, archives, press releases, and promotional materials for future editions of the Conference. *(Note: Clear on-site signage will indicate areas where photography is active).*
+* **Sponsor Interaction Disclaimer:** Sponsors operating at the event are independent entities. We **do not** cross-pass or transfer your registration database to sponsors. If you choose to share your contact details directly with a sponsor on-site (e.g., via independent badge scans at booths or business card drops), that interaction is governed entirely by the respective sponsor's privacy policy and independent consent framework.
 
-## Cookies
 
-Cookies are files with small amount of data that is commonly used an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your computer's hard drive.
+## 4. Data Intermediaries and Third-Party Services
+To facilitate the Conference, we engage trusted third-party service providers and technology platforms who act as data intermediaries. These include:
 
-Our website uses these “cookies” to collection information and to improve our Service. You have the option to either accept or refuse these cookies, and know when a cookie is being sent to your computer. If you choose to refuse our cookies, you may not be able to use some portions of our Service.
+* **GitHub Pages & Cloudflare Personal:** For static website hosting, edge security, and Layer 7 DDoS mitigation.
+* **RSVPify:** For ticket sales, registration management, and attendee data processing.
+* **`cfp.directory`:** For managing speaker submissions and proposal reviews.
+* **On-Site Check-In Vendors:** Temporary data processing services strictly localized for badge printing and queue management during event days.
 
-## Service Providers
+Where your data is transferred, hosted, or processed outside of Singapore by our global infrastructure providers, we ensure that appropriate safeguards are in place to provide a standard of protection comparable to the PDPA.
 
-We may employ third-party companies and individuals due to the following reasons:
 
--   To facilitate our Service;
--   To provide the Service on our behalf;
--   To perform Service-related services; or
--   To assist us in analyzing how our Service is used.
+## 5. Data Retention and Anonymization Schedule
+* **Active Retention Period:** All identifiable personal attendee and speaker data will be securely stored for no longer than necessary to fulfill the purposes outlined above, and in any event, will be **fully purged or permanently deleted within one (1) year** following the conclusion of the Conference.
+* **Transition to Anonymized Metrics:** Following the one-year purge of identifiable records, retained data will be permanently anonymized. Fully aggregated, non-identifiable statistical metrics (such as total attendance counts, generalized age-range distributions, and aggregate occupation percentages) may be kept to plan, scale, and budget requirements for future conference editions.
 
-We want to inform our Service users that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
 
-## Security
+## 6. Your Rights Under the PDPA
+Under the Singapore PDPA, you possess certain rights regarding your personal data:
+* **Access & Correction:** You have the right to request access to a copy of the personal data we hold about you and to request corrections if any information is inaccurate or incomplete.
+* **Withdrawal of Consent:** You may withdraw your consent for the collection, use, or disclosure of your personal data at any time by submitting a written request to our Data Protection Officer (DPO). Please note that withdrawing consent for essential data (such as identity or ticketing information) may impact your ability to attend or access the event.
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
 
-## Links to Other Sites
+## 7. Data Protection Officer (DPO) Contact
+If you have any questions, feedback, or formal requests regarding this Privacy Policy, your personal data, or our compliance with the PDPA, please contact our designated Data Protection Officer:
 
-Our Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
-
-Children's Privacy
-
-Our Services do not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the case we discover that a child under 13 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that we will be able to do necessary actions.
-
-## Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page.
-
-## Contact Us
-
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.
+* **Email:** info@bsidessg.org

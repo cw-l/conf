@@ -1,0 +1,9 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+            {{ with .Date }}<p>{{ .Format "2 January 2006" }}</p>{{ end }}
+            <article class="markdown">{{ .Content }}</article>
+        </section>
+    </div>
+{{ end }}

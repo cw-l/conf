@@ -1,0 +1,16 @@
+{{ define "main" }}
+    <div class="section-container">
+        <section class="section">
+            <h1 class="heading heading--1">{{ .Title }}</h1>
+            {{ range .Pages.ByDate.Reverse }}
+                <article>
+                    <h2 class="heading heading--2">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h2>
+                    {{ with .Date }}<p>{{ .Format "2 January 2006" }}</p>{{ end }}
+                    <div class="markdown">{{ .Summary }}</div>
+                </article>
+            {{ end }}
+        </section>
+    </div>
+{{ end }}

@@ -1,0 +1,94 @@
+#- id: "1"
+#  firstName: Jane
+#  lastName: Tan
+#  fullName: Jane Tan
+#  tagLine: Security Researcher
+#  bio: |
+#    Jane is a security researcher focused on cloud security.
+#  isTopSpeaker: false
+#  profilePicture: speakers/jane-tan.jpg
+#  links:
+#    - linkType: Twitter
+#      url: https://x.com/janetan
+#    - linkType: LinkedIn
+#      url: https://linkedin.com/in/janetan
+#  sessions: ["101"]
+
+
+# Organizers
+- id: "org-1"
+  firstName: Salimah
+  lastName: Liyakkathali
+  fullName: Salimah Liyakkathali
+  tagLine: Organizer
+  role: organizer
+  bio: |
+    ...
+  isTopSpeaker: false
+  profilePicture: speakers/salimah.webp
+  links:
+    - linkType: LinkedIn
+      url: https://linkedin.com/in/salimah-liyakkathali
+  sessions: []
+
+- id: "org-2"
+  firstName: Šárka
+  lastName: Pekařová
+  fullName: Šárka Pekařová
+  tagLine: Organizer
+  role: organizer
+  bio: |
+    ...
+  isTopSpeaker: false
+  profilePicture: speakers/sarka.webp
+  links:
+    - linkType: LinkedIn
+      url: https://linkedin.com/in/sarka-
+  sessions: []
+
+- id: "org-3"
+  firstName: Indrajeet
+  lastName: Bhuyan
+  fullName: Indrajeet Bhuyan
+  tagLine: Organizer
+  role: organizer
+  bio: |
+    ...
+  isTopSpeaker: false
+  profilePicture: speakers/indrajeet.webp
+  links:
+    - linkType: LinkedIn
+      url: https://linkedin.com/in/indrajeetbhuyan
+  sessions: []
+
+- id: "org-4"
+  firstName: Cheng Wei
+  lastName: Lee
+  fullName: Lee Cheng Wei
+  tagLine: Organizer
+  role: organizer
+  bio: |
+    ...
+  isTopSpeaker: false
+  profilePicture: speakers/cw.jpg
+  links:
+    - linkType: LinkedIn
+      url: https://linkedin.com/in/leechengwei
+  sessions: []
+
+
+# Advisors
+- id: "adv-1"
+  firstName: Sanoop
+  lastName: Thomas
+  fullName: Sanoop Thomas
+  tagLine: Advisor
+  role: advisor
+  bio: |
+    ...
+  isTopSpeaker: false
+  profilePicture: speakers/sanoop.webp
+  links:
+    - linkType: LinkedIn
+      url: https://linkedin.com/in/s4n7h0
+  sessions: []

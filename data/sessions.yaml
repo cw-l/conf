@@ -1,0 +1,9 @@
+- id: "101"
+  title: "Attacking Cloud IAM"
+  description: |
+    A deep dive into cloud IAM misconfigurations.
+  startsAt: "2027-01-30T09:00:00"
+  roomId: 1
+  speakers: ["1"]
+  categoryItems: []
+  isServiceSession: false
