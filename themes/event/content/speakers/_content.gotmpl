@@ -1,0 +1,8 @@
+{{ .EnableAllLanguages }}
+{{ $context := . }}
+{{ with partial "local-data/view-all.html" dict }}
+    {{ with partial "content-adapters/create-speaker-content.html" (dict "sessionize" .) }}
+        {{ range .pages }}{{ $.AddPage . }}{{ end }}
+        {{ range .resources }}{{ $.AddResource . }}{{ end }}
+    {{ end }}
+{{ end }}
