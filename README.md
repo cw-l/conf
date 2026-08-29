@@ -1,33 +1,17 @@
-# Hugo Event Theme Demo
+# BSides Singapore Conference Website
 
-A demo event website built with the [Hugo Event Theme](https://github.com/medialesson/hugo-theme-event).
+The official website for **BSides Singapore Security Conference (BSidesSG)** — Singapore's grassroots, community-driven infosec conference.
 
-See it in action on https://medialesson.github.io/hugo-theme-event-demo.
+BSides Singapore debuted in 2019 and held its 6th edition in 2024. It's a community-driven conference focused on deep, technical understanding of topics related to information security.
 
-You can use this repository as template for your new project.
-[Click here to create a new repository.](https://github.com/new?template_name=hugo-theme-event-demo&template_owner=medialesson)
+Visit the live site: [bsidessg.org](https://bsidessg.org)
 
-## Getting started
+## About this repository
 
-### Prerequisites
+This site is built with [Hugo](https://gohugo.io), using a customized fork of the [Hugo Event Theme](https://github.com/medialesson/hugo-theme-event) by Medialesson GmbH.
 
-1. [Hugo](https://gohugo.io/installation/) is installed on your machine.
-2. You're familiar with [Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+Notably, this fork does not rely on Sessionize — speaker and session data is managed locally rather than pulled from a live API.
 
-### Installation
+## License
 
-1. Open a shell of your choice.
-2. Clone this repository with submodules.
-    ```shell
-    git clone --recurse-submodules https://github.com/medialesson/hugo-theme-event-demo.git
-    ```
-3. Switch to the repository directory.
-4. Run npm install to install the required dependencies.
-    ```shell
-    npm install
-    ```
-5. Run Hugo in development mode:
-    ```shell
-    hugo server
-    ```
-6. View the demo event website on http://localhost:1313/.
+The base theme is licensed under [AGPL-3.0](https://github.com/medialesson/hugo-theme-event/blob/main/LICENSE) by Medialesson GmbH.
