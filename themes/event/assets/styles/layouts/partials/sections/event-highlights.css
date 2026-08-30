@@ -43,3 +43,11 @@
     color: var(--color-secondary-darker);
     line-height: 1.5rem;
 }
+
+.event-highlights-section__paragraph p {
+    margin: 0 0 1rem 0;
+}
+
+.event-highlights-section__paragraph p:last-child {
+    margin-bottom: 0;
+}

@@ -100,14 +100,14 @@ languages:
 params:
     # Open Graph / X (Twitter) Cards
     images:
-        - logos/medicon-512.jpg
+        - logos/bsidessg-logo.png
     themes:
         event:
             # sessionizeId: 67poir7q
-            title: BSides Singapore Security Conference
+            title: BSides Security Conference
             shortTitle: BSidesSG
-            startDate: 2027-01-30
-            endDate: 2027-01-30
+            #startDate: 2027-01-30
+            #endDate: 2027-01-30
             address:
                 - Singapore
             map:
@@ -121,7 +121,7 @@ params:
                 other:
                     url: https://rsvpify.com
             callToActionSecondary:
-                url: https://cfp.directory/organizations/bsides-singapore
+                url: https://happalo.com/
             callToActionTertiary:
                 url: 'mailto:info@bsidessg.org?subject=Volunteering%20Inquiry%20-%20BSides%20Singapore'
             socialLinks:
@@ -131,13 +131,17 @@ params:
                 linkedinUrl: https://www.linkedin.com/company/bsidessg/
             images:
                 logo: logos/bsidessg-logo.png
-                titleBackground: images/pexels-caleboquendo-3023317.webp
+                # titleBackground: images/pexels-caleboquendo-3023317.webp
+                titleBackground: images/badges.webp
                 location: images/mbs_sg.webp
             sponsors:
                 - logo: logos/sponsor-placeholder.svg
                   url: 'mailto:info@bsidessg.org?subject=Sponsorship%20Inquiry%20-%20BSides%20Singapore'
                   name: 'Join us a sponsor'
             partners:
+                - logo: logos/happalo.webp
+                  url: https://happalo.com
+                  name: happalo
                 - logo: logos/partner-placeholder.svg
                   url: 'mailto:info@bsidessg.org?subject=Partners%20Inquiry%20-%20BSides%20Singapore'
                   name: 'Join us a partner'

@@ -12,9 +12,13 @@
         )
     }}
 
-    {{ $eventStartDate := or .Site.Params.themes.event.startDate now | time }}
-    {{ $eventEndDate := or .Site.Params.themes.event.endDate now | time }}
-    {{ $dayInSeconds := 86400 }}
+    {{- $numberOfDays := 1 }}
+    {{- if .Site.Params.themes.event.startDate }}
+        {{- $eventStartDate := .Site.Params.themes.event.startDate | time }}
+        {{- $eventEndDate := or .Site.Params.themes.event.endDate .Site.Params.themes.event.startDate | time }}
+        {{- $dayInSeconds := 86400 }}
+        {{- $numberOfDays = div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds }}
+    {{- end }}
     {{- $speakerPages := where .Site.RegularPages "Section" "speakers" }}
     {{- $notOrganizers := where $speakerPages "Params.role" "ne" "organizer" }}
     {{- $onlySpeakers := where $notOrganizers "Params.role" "ne" "advisor" }}
@@ -26,7 +30,7 @@
         "logo" .Site.Params.themes.event.images.logo
         "numberOfSpeakers" ($onlySpeakers | len)
         "numberOfSessions" (where (where .Site.RegularPages "Section" "sessions") "Params.isServiceSession" false | len)
-        "numberOfDays" (div (sub (add $eventEndDate.Unix $dayInSeconds) $eventStartDate.Unix) $dayInSeconds)
+        "numberOfDays" $numberOfDays
         "location" .Site.Params.themes.event.location )
     }}
 
